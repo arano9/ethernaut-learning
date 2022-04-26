@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[3]",
+						"name": "_data",
+						"type": "bytes32[3]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ID",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/ethernaut/privacy.sol": "Privacy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/ethernaut/privacy.sol": {
+			"keccak256": "0x75f5d20ed939bd32aa814ee274fe6670d96750f0e82f07bd7fa128d7b0d74090",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac0c80828ca3995678fe3ad5590396349cb5cb621f4ff7637a83bea6c0257053",
+				"dweb:/ipfs/QmfC5a79zRDAoX5uBxzqKQjRkNvrXSPRoLx4958GvjrnEF"
+			]
+		}
+	},
+	"version": 1
+}
